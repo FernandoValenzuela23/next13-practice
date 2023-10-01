@@ -18,10 +18,52 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 32px;
+}
+
+article h1 {
+  font-weight: bolder;
+  color: darkblue;
+  text-decoration: underline;
+}
+
+article button {
+  border: 0px solid #f0f0f0;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: rgb(208, 223, 243);
+}
+
+article ul {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(218, 228, 238);
+}
+
+article p {
+  margin-top: 10px;
+}
+
+article ul li {
+  margin-left: 20px;
+  list-style-type: circle;
 }

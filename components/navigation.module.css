@@ -1,0 +1,18 @@
+.header {
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 32px;
+    background-color: lightsteelblue;
+}
+
+.navigation {    
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.navigation a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
